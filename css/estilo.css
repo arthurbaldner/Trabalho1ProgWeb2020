@@ -1,12 +1,3 @@
-/** Fase 1 **/
-
-/** Debuger **/
-header, section, footer {
-	border-style: dotted;
-	border-width: thin;
-	border-color: red;
-}
-
 img.imgLogo {
 height:50px;
 }
