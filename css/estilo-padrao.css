@@ -2,32 +2,53 @@
 Paleta: https://coolors.co/f7f7f7-bfdbdd-c6f5f7-476a6f-232323
 **/
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.imagem_inicial {
+  width: 850px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, "MS Trebuchet", sans-serif;
-	background-color:#bfdbdd;
+	background-color:#1d3557;
 	font-size: 14px;
 }
 
 div.container {
-	width:900px;
+	width: 90%;
 	padding: 10px;
 	margin: 15px auto;
-	background-color:#f7f7f7;
-
-	/*
-	border-width: 15px;
-	border-style: solid;
-	border-color: #9B5427;
-	*/
-	
+	background-color:#f7f7f7;	
 	color: #232323;
 }
 
+div.galeria img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageLogo {
+  float: left;
+}
+
 img.imgLogo {
-	height: 50px;
+  height: 150px;
+}
+
+img.imgLogoDir {
+  height: 150px;
 }
 
 header#pageHeader nav ul, #pageFooter nav ul {
@@ -52,15 +73,11 @@ p, li {
 
 header#pageHeader {
   width: 100%;
+  background-color: black;
 }
 
-div.pageLogo {
-  float:left;
-}
 
-div.pageLogoDir {
-  float:right;
-}
+
 
 nav#menuPrincipal{
   clear: both;
@@ -83,6 +100,9 @@ footer#pageFooter a {
 .titleHeader {
   margin-bottom: 0px;
   margin-top:0px;
+  color: #f7f7f7;
+  float: right;
+  padding-top: 25px;
 }
 
 section#sidebar {
@@ -111,3 +131,38 @@ footer#pageFooter nav {
 footer#pageFooter nav ul li {
   font-size: 12px;
 }
+
+.top10 {
+  font-size: large;
+  font-weight: bold;
+}
+
+.shows_historicos {
+  font-weight: bold;
+}
+
+.imagem_membros::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.imagem_membros p {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.img_mb {
+  float: left;
+  width: 100px;
+  height: auto;
+}
+
+.navigation_bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
